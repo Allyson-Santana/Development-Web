@@ -1,0 +1,3 @@
+<?php
+    //Projeto Padrão 
+?>

@@ -1,0 +1,170 @@
+/* ////////////////////////////////////////////////// Postagens  ////////////////////////////////////////////////// */
+#postagem{
+    background-color: white;
+    width: auto;
+    height: auto;
+    box-shadow: #5f5f5f 8px 17px 10px;
+    position: relative;
+}
+#postagem a{
+    text-decoration: none; 
+}
+.tituloPostagem, .textoDenuncia{
+    font-size: 12px;
+    margin-left: 8px;
+    margin-right: 5px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+.imagemPostagem{
+    width: 100%;
+    height: auto;
+    border-radius:  5px;
+    cursor: zoom-in;  
+}
+.imagemPostagemModal{
+    width: 100%;
+    height: auto;
+    border-radius:  5px;
+    cursor: zoom-in;  
+}
+#boryPostagem{
+    background-color: rgb(152, 238, 130);
+    font-family: 'Courier New', Courier, monospace;
+}
+.divDividir{
+    margin-bottom: 15px;
+    background-color: rgb(152, 238, 130);
+    width: auto;
+    box-shadow:  rgb(152, 238, 130) 5px 1px 25px;
+    padding: 4px;
+}
+.espacoPostagem{
+    padding: 8px;
+}
+.btnlikes{
+  font-size: 11px;
+  border-radius: 25px;
+  margin: 3px 0px 3px 0px;
+  width: 100%;
+  height: 25px;
+  cursor: pointer;
+}  
+.btnComentar{ 
+    font-size: 11px;
+    border-radius: 5px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#btnEnviarDenuncia, #btnSairDenuncia{ 
+    width: 100%;
+}
+.imgMenu{
+    height: 20px;
+    float: right;
+}
+.imgMenu:hover{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+     transform: scale(0.9);
+}
+.opcoesPostagem{
+    margin-top: 25px;
+    position: absolute;
+    padding: 5px;
+}
+.btnOpcoes{
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.comentario{
+    text-align: justify;
+    word-break: break-all;
+}
+.telaCompartilhar{
+    background-color: rgba(221, 221, 221, 0.308);
+    padding: 8px;
+    border-radius: 5px;
+    border: groove;
+    border-color: rgba(221, 221, 221, 0.308);
+    margin-bottom: 7px;
+    z-index: -1;
+}
+.imgPerfilPostagem{
+    border-radius: 50%;
+    height: 35px;
+    width: 40px;
+}
+a{
+    cursor: pointer;
+}
+.imgRelogioPostagem{
+    border-radius: 50%;
+    height: 28px;
+}
+.p_relogio{
+  font-size: 11px;
+}
+.tabelaEmojinCaracter button{
+    font-size: 19px;
+    padding: 5px;    
+}
+.tabelaEmojinMao button{
+    font-size: 20px;
+    padding: 6px; 
+    margin-left: 4px;
+}
+.tabelaEmojinCaracter button:hover{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+     transform: scale(0.9);
+     text-decoration: none;
+}
+.tabelaEmojinMao button:hover{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+     transform: scale(0.9);
+     text-decoration: none;
+}
+.rowComentario:hover{
+    background-color: rgba(177, 176, 176, 0.231);
+    border-radius: 3%
+}
+.textoConfirmarExcluir{
+    text-align: center;
+}
+#modalExcluirPostagem, #modalExcluirComentario, #modalAlterarComentario {
+    margin-top: 10%;
+}
+.menuComentario{
+    display: none;
+}
+.areaOpcaoComentario{
+    position: absolute;
+}
+.btnOpcoesComentario{
+    padding: 5px;
+    margin-left: 5px;
+}
+#textAreacomentarioAtual{
+    width: 100%;
+    resize: none;
+    height: 150px;
+    border-style: solid;
+    padding: 3px;
+    border-radius: 5px;
+}
+.btnNovoComentario{
+float: right; 
+font-size: 11px;
+border-radius: 25px;
+width: 40%;
+height: 25px;
+cursor: pointer;
+box-shadow: #5f5f5f 0px 1px 1px;
+}
+
+/* /////////////////////////////////////////////////////// FIM POSTAGEM  /////////////////////////////////////////////////////////////*/ 
+
